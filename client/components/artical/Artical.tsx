@@ -6,7 +6,9 @@ import { getArticals } from '../../helpers/helper.js';
 import { articalInt } from '../../interface/interface';
 
 const Artical = () => {
-  const { isLoading, isError, data, error } = useQuery('posts', getArticals);
+  const { isLoading, isError, data, error } = useQuery('posts', getArticals, {
+    cacheTime: 5000,
+  });
 
   if (isLoading) return <span>Loading...</span>;
 
