@@ -1,0 +1,38 @@
+{
+  "name": "technical-assignment-front-end-engineer-imran-cielrecruiter",
+  "version": "1.0.0",
+  "description": "Create a minimal news list to create and view articles. An article consisting of at least (but not limited to) a title, a body, the author's email address and a publication date.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sport50/technical-assignment-front-end-engineer-imran-cielrecruiter.git"
+  },
+  "keywords": [
+    "MERN",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sport50/technical-assignment-front-end-engineer-imran-cielrecruiter/issues"
+  },
+  "homepage": "https://github.com/Sport50/technical-assignment-front-end-engineer-imran-cielrecruiter#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
